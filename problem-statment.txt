@@ -1,0 +1,10 @@
+Project:
+AI based accident prevention in MMS (modular manifacturing system).
+
+Description: 
+Accident in MMS often occur due to delayed human response or oversight. 
+By implmenting an AI-powerd camera vision system, activites can be 
+continuously monitored and machines acan be auto-stopped in 
+real-time upon detecting potentioal hazards. This proactive apprach 
+can significantly reducee accidents, prevent injuries and ensure 
+workplace safteu.
