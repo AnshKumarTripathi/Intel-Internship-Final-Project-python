@@ -39,6 +39,21 @@ def deploy_flexible():
     except Exception as e:
         print(f"❌ Error: {e}")
 
+def deploy_python311():
+    """Deploy with Python 3.11 compatibility"""
+    try:
+        # Copy Python 3.11 requirements
+        shutil.copy('requirements_python311.txt', 'requirements.txt')
+        
+        print("✅ Deployed PYTHON 3.11 version")
+        print("📦 Uses: requirements_python311.txt")
+        print("🚀 App: app.py (full version)")
+        print("🐍 Python: 3.11 (TensorFlow compatible)")
+        print("📋 Also includes: runtime.txt, setup.py, pyproject.toml")
+        
+    except Exception as e:
+        print(f"❌ Error: {e}")
+
 def deploy_latest():
     """Deploy with latest version requirements"""
     try:
@@ -119,12 +134,13 @@ def main():
         print("Usage:")
         print("  python deploy.py minimal    - Deploy minimal version (no TensorFlow)")
         print("  python deploy.py flexible   - Deploy with flexible versions")
+        print("  python deploy.py python311  - Deploy with Python 3.11 compatibility")
         print("  python deploy.py latest     - Deploy with latest versions")
         print("  python deploy.py tensorflow - Deploy with TensorFlow")
         print("  python deploy.py onnx       - Deploy with ONNX Runtime")
         print("  python deploy.py status     - Show current status")
         print("\nRecommended for Python 3.13:")
-        print("  python deploy.py flexible")
+        print("  python deploy.py python311")
         return
     
     command = sys.argv[1].lower()
@@ -133,6 +149,8 @@ def main():
         deploy_minimal()
     elif command == 'flexible':
         deploy_flexible()
+    elif command == 'python311':
+        deploy_python311()
     elif command == 'latest':
         deploy_latest()
     elif command == 'tensorflow':
@@ -143,7 +161,7 @@ def main():
         show_status()
     else:
         print(f"❌ Unknown command: {command}")
-        print("Use: minimal, flexible, latest, tensorflow, onnx, or status")
+        print("Use: minimal, flexible, python311, latest, tensorflow, onnx, or status")
 
 if __name__ == "__main__":
     main() 
