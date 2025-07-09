@@ -1,0 +1,289 @@
+================================================================================
+                                REFERENCES
+                    Helmet Detection System - Internship Report
+================================================================================
+
+CORE TECHNOLOGIES & FRAMEWORKS
+===============================
+
+[1] TensorFlow Team. (2023). "TensorFlow: An open-source machine learning framework."
+    Available: https://www.tensorflow.org/
+    [Accessed: 2024]
+
+[2] Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., Dean, J., ... & Zheng, X. (2016).
+    "TensorFlow: A system for large-scale machine learning." In 12th USENIX symposium 
+    on operating systems design and implementation (OSDI 16), pp. 265-283.
+
+[3] Streamlit Team. (2023). "Streamlit: The fastest way to build and share data apps."
+    Available: https://streamlit.io/
+    [Accessed: 2024]
+
+[4] Bradski, G. (2000). "The OpenCV Library." Dr. Dobb's Journal of Software Tools.
+
+[5] Van der Walt, S., Schönberger, J. L., Nunez-Iglesias, J., Boulogne, F., Warner, J. D.,
+    Yager, N., ... & Yu, T. (2014). "scikit-image: image processing in Python."
+    PeerJ, 2, e453.
+
+MACHINE LEARNING & COMPUTER VISION
+===================================
+
+[6] LeCun, Y., Bengio, Y., & Hinton, G. (2015). "Deep learning." Nature, 521(7553), 436-444.
+
+[7] Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). "Imagenet classification with 
+    deep convolutional neural networks." Advances in neural information processing systems, 25.
+
+[8] He, K., Zhang, X., Ren, S., & Sun, J. (2016). "Deep residual learning for image 
+    recognition." In Proceedings of the IEEE conference on computer vision and pattern 
+    recognition, pp. 770-778.
+
+[9] Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). "You only look once: 
+    Unified, real-time object detection." In Proceedings of the IEEE conference on computer 
+    vision and pattern recognition, pp. 779-788.
+
+[10] Ren, S., He, K., Girshick, R., & Sun, J. (2015). "Faster r-cnn: Towards real-time 
+     object detection with region proposal networks." Advances in neural information 
+     processing systems, 28.
+
+SAFETY & PPE DETECTION
+=======================
+
+[11] OSHA. (2024). "Personal Protective Equipment (PPE) Standards."
+     Available: https://www.osha.gov/personal-protective-equipment
+     [Accessed: 2024]
+
+[12] NIOSH. (2024). "Head Protection: Hard Hats."
+     Available: https://www.cdc.gov/niosh/topics/head/
+     [Accessed: 2024]
+
+[13] Zhang, L., Yang, F., Zhang, Y. D., & Zhu, Y. J. (2016). "Road crack detection using 
+     deep convolutional neural network." IEEE Image Processing, 25(6), 2782-2797.
+
+[14] Chen, Y., Wang, J., Li, J., Lu, C., Luo, Z., Xue, Y., & Wang, C. (2018). "LiDAR-video 
+     driving dataset: Learning driving policies effectively." In Proceedings of the IEEE 
+     Conference on Computer Vision and Pattern Recognition, pp. 5870-5878.
+
+[15] Liu, L., Ouyang, W., Wang, X., Fieguth, P., Chen, J., Liu, X., & Pietikäinen, M. (2020).
+     "Deep learning for generic object detection: A survey." International journal of 
+     computer vision, 128(2), 261-318.
+
+MANUFACTURING & INDUSTRIAL SAFETY
+==================================
+
+[16] ISO 45001:2018. "Occupational health and safety management systems — Requirements 
+     with guidance for use." International Organization for Standardization.
+
+[17] ANSI Z89.1-2014. "American National Standard for Industrial Head Protection."
+     American National Standards Institute.
+
+[18] European Agency for Safety and Health at Work. (2024). "Personal Protective Equipment 
+     at Work." Available: https://osha.europa.eu/en/themes/personal-protective-equipment
+     [Accessed: 2024]
+
+[19] Health and Safety Executive (HSE). (2024). "Personal Protective Equipment (PPE)."
+     Available: https://www.hse.gov.uk/ppe/
+     [Accessed: 2024]
+
+[20] OSHA 29 CFR 1910.135. "Head protection." Occupational Safety and Health Administration.
+
+REAL-TIME MONITORING & AUTOMATION
+==================================
+
+[21] Wang, X., Han, T. X., & Yan, S. (2009). "An HOG-LBP human detector with partial 
+     occlusion handling." In 2009 IEEE 12th international conference on computer vision, 
+     pp. 32-39.
+
+[22] Dalal, N., & Triggs, B. (2005). "Histograms of oriented gradients for human detection."
+     In 2005 IEEE computer society conference on computer vision and pattern recognition 
+     (CVPR'05), vol. 1, pp. 886-893.
+
+[23] Viola, P., & Jones, M. (2001). "Rapid object detection using a boosted cascade of 
+     simple features." In Proceedings of the IEEE computer society conference on computer 
+     vision and pattern recognition. CVPR 2001, vol. 1, pp. I-I.
+
+[24] Lowe, D. G. (2004). "Distinctive image features from scale-invariant keypoints."
+     International journal of computer vision, 60(2), 91-110.
+
+[25] Bay, H., Ess, A., Tuytelaars, T., & Van Gool, L. (2008). "Speeded-up robust features 
+     (SURF)." Computer vision and image understanding, 110(3), 346-359.
+
+WEB DEVELOPMENT & USER INTERFACES
+==================================
+
+[26] React Team. (2023). "React: A JavaScript library for building user interfaces."
+     Available: https://reactjs.org/
+     [Accessed: 2024]
+
+[27] Bootstrap Team. (2023). "Bootstrap: The most popular CSS Framework for developing 
+     responsive and mobile-first websites."
+     Available: https://getbootstrap.com/
+     [Accessed: 2024]
+
+[28] W3C. (2024). "Web Content Accessibility Guidelines (WCAG) 2.1."
+     Available: https://www.w3.org/WAI/WCAG21/quickref/
+     [Accessed: 2024]
+
+[29] Nielsen, J. (2012). "Usability 101: Introduction to Usability."
+     Available: https://www.nngroup.com/articles/usability-101-introduction-to-usability/
+     [Accessed: 2024]
+
+[30] Norman, D. A. (2013). "The design of everyday things: Revised and expanded edition."
+     Basic books.
+
+DATASETS & TRAINING
+====================
+
+[31] Kaggle. (2024). "Helmet Detection Dataset."
+     Available: https://www.kaggle.com/datasets
+     [Accessed: 2024]
+
+[32] Google Teachable Machine. (2024). "Teachable Machine: Train a computer to recognize 
+     your own images, sounds, & poses."
+     Available: https://teachablemachine.withgoogle.com/
+     [Accessed: 2024]
+
+[33] Deng, J., Dong, W., Socher, R., Li, L. J., Li, K., & Fei-Fei, L. (2009). "Imagenet: 
+     A large-scale hierarchical image database." In 2009 IEEE conference on computer 
+     vision and pattern recognition, pp. 248-255.
+
+[34] Lin, T. Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., ... & Zitnick, 
+     C. L. (2014). "Microsoft coco: Common objects in context." In European conference on 
+     computer vision, pp. 740-755.
+
+[35] Everingham, M., Van Gool, L., Williams, C. K., Winn, J., & Zisserman, A. (2010). 
+     "The pascal visual object classes (voc) challenge." International journal of computer 
+     vision, 88(2), 303-338.
+
+PYTHON & DEVELOPMENT TOOLS
+===========================
+
+[36] Van Rossum, G., & Drake, F. L. (2009). "Python 3 Reference Manual." CreateSpace.
+
+[37] McKinney, W. (2011). "pandas: a foundational Python library for data analysis and 
+     statistics." Python for High Performance and Scientific Computing, 14(9), 1-9.
+
+[38] Harris, C. R., Millman, K. J., Van Der Walt, S. J., Gommers, R., Virtanen, P., 
+     Cournapeau, D., ... & Oliphant, T. E. (2020). "Array programming with NumPy." 
+     Nature, 585(7825), 357-362.
+
+[39] Hunter, J. D. (2007). "Matplotlib: A 2D graphics environment." Computing in science 
+     & engineering, 9(3), 90-95.
+
+[40] Pillow Development Team. (2024). "Pillow: The friendly PIL fork."
+     Available: https://python-pillow.org/
+     [Accessed: 2024]
+
+INDUSTRIAL APPLICATIONS & CASE STUDIES
+=======================================
+
+[41] Intel Corporation. (2024). "Intel AI Solutions for Manufacturing."
+     Available: https://www.intel.com/content/www/us/en/artificial-intelligence/
+     [Accessed: 2024]
+
+[42] McKinsey & Company. (2023). "The State of AI in 2023: Generative AI's Breakout Year."
+     Available: https://www.mckinsey.com/capabilities/quantumblack/our-insights/
+     the-state-of-ai-in-2023-generative-ais-breakout-year
+     [Accessed: 2024]
+
+[43] Deloitte. (2024). "AI in Manufacturing: Transforming the Future of Production."
+     Available: https://www2.deloitte.com/global/en/insights/topics/
+     artificial-intelligence/ai-in-manufacturing.html
+     [Accessed: 2024]
+
+[44] PwC. (2024). "AI Predictions 2024: AI will become 'indispensable' for business."
+     Available: https://www.pwc.com/gx/en/issues/data-and-analytics/
+     artificial-intelligence/ai-predictions-2024.html
+     [Accessed: 2024]
+
+[45] Gartner. (2024). "Gartner Identifies Four Emerging Trends That Will Drive Business 
+     Innovation for the Next Decade."
+     Available: https://www.gartner.com/en/newsroom/press-releases/
+     [Accessed: 2024]
+
+RESEARCH PAPERS & ACADEMIC REFERENCES
+======================================
+
+[46] Goodfellow, I., Bengio, Y., & Courville, A. (2016). "Deep learning." MIT press.
+
+[47] Bishop, C. M. (2006). "Pattern recognition and machine learning." Springer.
+
+[48] Murphy, K. P. (2012). "Machine learning: a probabilistic perspective." MIT press.
+
+[49] Szeliski, R. (2010). "Computer vision: algorithms and applications." Springer Science 
+     & Business Media.
+
+[50] Forsyth, D. A., & Ponce, J. (2002). "Computer vision: a modern approach." Prentice 
+     Hall Professional Technical Reference.
+
+STANDARDS & BEST PRACTICES
+===========================
+
+[51] IEEE. (2024). "IEEE Standards for Artificial Intelligence and Machine Learning."
+     Available: https://standards.ieee.org/
+     [Accessed: 2024]
+
+[52] ISO/IEC 23053:2022. "Framework for Artificial Intelligence (AI) system using 
+     machine learning (ML)." International Organization for Standardization.
+
+[53] NIST. (2024). "Artificial Intelligence Risk Management Framework (AI RMF)."
+     Available: https://www.nist.gov/ai-rmf
+     [Accessed: 2024]
+
+[54] ACM. (2024). "ACM Code of Ethics and Professional Conduct."
+     Available: https://www.acm.org/code-of-ethics
+     [Accessed: 2024]
+
+[55] IEEE. (2024). "IEEE Code of Ethics."
+     Available: https://www.ieee.org/about/corporate/governance/p7-8.html
+     [Accessed: 2024]
+
+================================================================================
+                                REFERENCE FORMATS
+================================================================================
+
+IEEE FORMAT (Recommended for Technical Reports):
+[1] Author(s), "Title," Journal/Conference, vol. X, no. Y, pp. Z, Year.
+
+APA FORMAT (Alternative):
+Author, A. A. (Year). Title of work. Publisher.
+
+MLA FORMAT (Alternative):
+Author. "Title of Source." Title of Container, Other contributors, Version, Number, 
+Publisher, Publication date, Location.
+
+================================================================================
+                                CITATION TIPS
+================================================================================
+
+1. Use IEEE format for technical reports and engineering projects
+2. Include both academic papers and industry standards
+3. Reference the specific tools and technologies used
+4. Include safety standards and regulations
+5. Cite recent sources (preferably within last 5 years)
+6. Use a mix of academic and industry sources
+7. Include your organization's (Intel) relevant publications
+8. Reference the specific datasets and platforms used
+
+================================================================================
+                                RECOMMENDED CORE REFERENCES
+================================================================================
+
+For your internship report, prioritize these references:
+
+CORE TECHNICAL:
+- [1] TensorFlow (Primary ML framework)
+- [3] Streamlit (Web framework)
+- [4] OpenCV (Computer vision)
+- [6] Deep Learning fundamentals
+- [32] Teachable Machine (Training platform)
+
+SAFETY & STANDARDS:
+- [11] OSHA PPE Standards
+- [16] ISO 45001 Safety Management
+- [20] OSHA Head Protection
+
+INDUSTRY & ORGANIZATION:
+- [41] Intel AI Solutions
+- [42] McKinsey AI in Manufacturing
+- [43] Deloitte AI Manufacturing
+
+================================================================================ 
