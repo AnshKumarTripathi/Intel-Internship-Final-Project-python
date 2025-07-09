@@ -1,6 +1,0 @@
-streamlit
-onnxruntime
-opencv-python
-pillow
-numpy
-matplotlib
