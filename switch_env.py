@@ -40,10 +40,12 @@ def show_status():
         with open('requirements.txt', 'r') as f:
             content = f.read()
         
-        if 'tensorflow>=2.16.0' in content:
+        if 'tensorflow==2.16.1' in content:
             print("🖥️  Current: LOCAL environment")
-        elif 'tensorflow==2.14.0' in content:
+        elif 'tensorflow==2.15.0' in content:
             print("☁️  Current: CLOUD environment")
+        elif 'tensorflow==2.14.0' in content:
+            print("☁️  Current: ALTERNATIVE CLOUD environment")
         else:
             print("❓ Current: UNKNOWN environment")
             
