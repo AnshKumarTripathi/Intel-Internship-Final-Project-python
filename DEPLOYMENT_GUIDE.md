@@ -75,23 +75,36 @@ If Streamlit Cloud deployment fails:
 
 If you encounter TensorFlow compatibility errors with Python 3.13:
 
-1. **Use TensorFlow 2.14.0** (recommended for Python 3.13):
+1. **Use Minimal Version** (recommended for Python 3.13):
 
    ```bash
-   # Use the Python 3.13 specific requirements
-   cp requirements_python313.txt requirements.txt
+   # Use the deployment script
+   python deploy.py minimal
    ```
 
-2. **Alternative: Use TensorFlow 2.15.0**:
+2. **Alternative: Use ONNX Runtime**:
 
    ```bash
-   # Use the flexible requirements
-   cp requirements_flexible.txt requirements.txt
+   # Use ONNX Runtime instead of TensorFlow
+   python deploy.py onnx
    ```
 
 3. **Error Message**: `No matching distribution found for tensorflow==2.16.1`
-   - This occurs because TensorFlow 2.16.1 doesn't have wheels for Python 3.13
-   - Solution: Use TensorFlow 2.14.0 or 2.15.0 instead
+   - This occurs because TensorFlow doesn't have wheels for Python 3.13
+   - **Solution**: Use minimal deployment or ONNX Runtime
+
+### Quick Deployment for Python 3.13
+
+```bash
+# Deploy minimal version (recommended)
+python deploy.py minimal
+
+# Check status
+python deploy.py status
+
+# Deploy with ONNX (if you have ONNX model)
+python deploy.py onnx
+```
 
 ### Version Conflicts
 

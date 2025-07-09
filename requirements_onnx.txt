@@ -1,6 +1,6 @@
 streamlit
-tensorflow
+onnxruntime
 opencv-python
 pillow
 numpy
-matplotlib 
+matplotlib
